@@ -1,0 +1,16 @@
+{
+  "name": "playwright_docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run-chrome": "npx playwright test example.spec.ts --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.5.5"
+  }
+}
